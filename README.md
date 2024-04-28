@@ -1,9 +1,9 @@
 # Web-Development-Server-Side
 COMP H2029 - Web Development Server Side
 
-By Diana Dimla ,Rai Talukder and Niamh Sherlock 
+By Diana Dimla, Rai Talukder and Niamh Sherlock 
 
-Diana was responsible for the UI aswell
+Diana was responsible for the UI
 
 Rai helped implement the Sign in and Login functions for the website
 
