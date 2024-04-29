@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="Lantana.css">
+
+</head>
+<body>
+<div class="header">
+    <div class="Title">
+        <h1>LANTANA</h1>
+    </div>
+
+    <div class="SubTitle">
+        <h4>Clothing Boutique just for you</h4>
+    </div>
+
+    <div class="SearchBar" role="SearchBar">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </div>
+</div>
+
+<div class="topnav a"><p>
+    <a href="HomePage.html" class="active">Home |</a>
+    <a href="Clothing.html" class="active">Clothing |</a>
+    <a href="Shoes.html" class="active">Shoes |</a>
+    <a href="Accessories.html" class="active">Accessories |</a>
+    <a href="Contact.html" class="active">Contact       |</a>
+
+    <a href="Login.html" class="login">Login    |</a>
+    <a href="Signup.html" class="signup">Sign up</a>
+
+</p></div>
+
+<!-- Content -->
+<div class="Signup">
+    <h1>Sign Up</h1>
+    <form action="signup1.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name_user" required> <!-- Match with name_user column -->
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email_user" required> <!-- Match with email_user column -->
+        
+        <label for="address">Address:</label>
+        <textarea id="address" name="address_user" required></textarea> <!-- Match with address_user column -->
+        
+        <label for="phone">Contact Number:</label>
+        <input type="tel" id="phone" name="phoneNo_user" required> <!-- Match with phoneNo_user column -->
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password_user" required> <!-- Match with password_user column -->
+        
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age_user" required> <!-- Match with age_user column -->
+        
+        <input type="checkbox" id="tos" name="tos" required>
+        <label class="checkbox-label" for="tos">I have read and agree to the Terms and Conditions</label>
+        
+        <input type="submit" class="submit-signup" value="Sign Up">
+    </form>
+    
+</div>
+
+
+
+<div class="footer">
+    <h5>© Copyright by Lantana 2024</h5>
+    <img src="images/facebook.png" alt="Facebook" height="31" width="31"/>
+    <img src="images/instagram.png" alt="Instagram" height="30" width="40"/>
+    <img src="images/email.png" alt="Email" height="30" width="30"/>
+</div>
+
+
+</body>
+</html>
